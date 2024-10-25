@@ -114,6 +114,7 @@ const PARALLEL_PROVIDERS: ModelProvider[] = [
   "replicate",
   "together",
   "sambanova",
+  "nebius",
 ];
 
 function llmCanGenerateInParallel(

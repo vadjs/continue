@@ -644,7 +644,8 @@ type ModelProvider =
   | "sambanova"
   | "nvidia"
   | "vllm"
-  | "mock";
+  | "mock"
+  | "nebius";
 
 export type ModelName =
   | "AUTODETECT"
@@ -813,7 +814,8 @@ export type EmbeddingsProviderName =
   | "deepinfra"
   | "nvidia"
   | "voyage"
-  | "mistral";
+  | "mistral"
+  | "nebius";
 
 export interface EmbedOptions {
   apiBase?: string;
