@@ -648,8 +648,8 @@ type ModelProvider =
   | "nvidia"
   | "vllm"
   | "mock"
-  | "cerebras";
-
+  | "cerebras"
+  | "nebius";
 
 export type ModelName =
   | "AUTODETECT"
@@ -831,7 +831,8 @@ export type EmbeddingsProviderName =
   | "nvidia"
   | "voyage"
   | "mistral"
-  | "vertex";
+  | "vertex"
+  | "nebius";
 
 export interface EmbedOptions {
   apiBase?: string;
